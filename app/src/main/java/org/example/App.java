@@ -17,5 +17,6 @@ public class App {
         double grossPay = payCalculator.grossPayCalc(hoursWorked);
         double deductions = payCalculator.deductions(grossPay, numberOfDependents);
         System.out.println("\nPayroll Stub:\n\n" + payFormatter.payrollStringOutput(grossPay, deductions, numberOfDependents, hoursWorked));
+        System.out.println("\nThank you for using the Payroll Program!");
     }
 }
