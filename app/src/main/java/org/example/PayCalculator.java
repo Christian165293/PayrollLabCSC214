@@ -1,6 +1,6 @@
 package org.example;
 
-public class PayCalculator {
+    public class PayCalculator {
 
     public double grossPayCalc(int hoursWorked) {
         if (hoursWorked <= 40) {

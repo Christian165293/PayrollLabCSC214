@@ -3,7 +3,7 @@ package org.example;
 
 public class PayFormatter {
 
-    private static double[] deductions(double grossPay, int dependents) {
+    public static double[] deductions(double grossPay, int dependents) {
         double[] deductionsArr = new double[4];
         deductionsArr[0] = 0.06 * grossPay;
         deductionsArr[1] = 0.14 * grossPay;
